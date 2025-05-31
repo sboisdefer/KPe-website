@@ -1,0 +1,57 @@
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+header, nav {
+  background-color: #fff;
+  border-bottom: 1px solid #ccc;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+}
+nav img {
+  height: 50px;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+.hero {
+  background-image: url('images/saint_malo.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+}
+.hero-overlay {
+  background-color: rgba(0,0,0,0.6);
+  padding: 40px;
+}
+section {
+  padding: 40px 20px;
+  max-width: 960px;
+  margin: auto;
+}
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #222;
+  color: #fff;
+  margin-top: 40px;
+}
